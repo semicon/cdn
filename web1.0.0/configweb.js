@@ -9,7 +9,7 @@
 
 function setconfig(){
       const dd = new Date().getFullYear()
-      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc' \/> 2010 - "+dd+", by Dr.Wichian Phumphuang"
+      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> 2010 - "+dd+", by Dr.Wichian Phumphuang"
       option_classroom()
       option_workshop()
     }
