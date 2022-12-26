@@ -8,7 +8,7 @@
 */
 
 function setconfig(){
-      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc' \/> 2010 - <script>document.write(new Date().getFullYear())<\/script>, by Dr.Wichian Phumphuang"
+      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc' \/> 2010 - "+new Date().getFullYear()+", by Dr.Wichian Phumphuang"
       option_classroom()
       option_workshop()
     }
