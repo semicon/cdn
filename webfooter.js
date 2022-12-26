@@ -9,5 +9,5 @@
          
 function setconfig(){
       const dd = new Date()
-      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> 2010 - "+dd.getYear()+", by Dr.Wichian Phumphuang"
+      document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> 2010 - "+getYear()+", by Dr.Wichian Phumphuang"
     }
