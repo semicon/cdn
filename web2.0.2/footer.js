@@ -5,7 +5,7 @@
  *     Line: semisailom
  *       FB: https://facebook.com/construct2n3
  *       FB: https://facebook.com/ph.wichian
-*/
+ */
          
 function setconfig(){
       const dd = new Date()
