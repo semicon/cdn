@@ -41,6 +41,9 @@ function customDateFormat(currentDate,formatType){
     case "9": // อา., 1 มกราคม 2566
       dateFormat=dayShort[d1] + ", " + d2 + " " + month[m1] + " " + (parseInt(y1)+543);
       break;
+    case "0": // อา., 01 มกราคม 2566
+      dateFormat=dayShort[d1] + ", " + d3 + " " + month[m1] + " " + (parseInt(y1)+543);
+      break;
   }
   return dateFormat;
 }
