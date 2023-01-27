@@ -47,3 +47,5 @@ function customDateFormat(currentDate,formatType){
   }
   return dateFormat;
 }
+
+var dateth =Utilities.parseDate("26-01-2023", Session.getScriptTimeZone(), "dd-MM-yyyy");
