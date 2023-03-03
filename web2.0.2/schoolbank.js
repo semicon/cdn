@@ -9,5 +9,10 @@
          
 function setconfig(){
       document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> @KruChian. Created by <a href='https://guruchian.blogspot.com' target='_blank'>Wichian Ph.</a>"
+      //document.querySelector('.template').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> @KruChian. Created by <a href='https://guruchian.blogspot.com' target='_blank'>Wichian Ph.</a>"
+    }
+
+function settemplete(){
+      //document.querySelector('.copyleft').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> @KruChian. Created by <a href='https://guruchian.blogspot.com' target='_blank'>Wichian Ph.</a>"
       document.querySelector('.template').innerHTML = "Copyleft  <img src='https://mirrors.creativecommons.org/presskit/icons/heart.red.png' width='25' height='25' alt='cc'> @KruChian. Created by <a href='https://guruchian.blogspot.com' target='_blank'>Wichian Ph.</a>"
     }
