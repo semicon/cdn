@@ -5,7 +5,7 @@ document.write(`<div id="cover" style="position:fixed; top:0; left:0; background
 </div>`);  
 }
 const datenow = new Date().getFullYear() ;
-const elemx = document.querySelector("body footer");
+const elemx = document.querySelector("body, footer");
 const entries = elemx.innerHTML.match("Dr. Wichian ph.");
 let dd = ''
 if(datenow != '2023') {
