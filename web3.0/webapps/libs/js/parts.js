@@ -13,7 +13,7 @@ const datenow = new Date().getFullYear() ;
           <ul class="d-flex gap-3 list-unstyled">
             <li><a href="https://www.facebook.com/construct2n3"  target="_blank"><i class="bi bi-facebook  h4"></i></a></li>
             <li ><a href="https://line.me/ti/p/XjwSadX6Ol"  target="_blank"><i class="bi bi-line text-success  h4"></i></a></li>
-            <li><a href="https://guruchian.blogspot.com/p/donate.html"  target="_blank"><i class="bi bi-cart4 text-danger h4"></i></a></li>
+            <li><a href="https://guruchian.blogspot.com/p/donate.html"  target="_blank"><i class="bi bi-cart3 text-danger h4"></i></a></li>
           </ul>
         </div>
       </div>
