@@ -6,7 +6,7 @@ document.write(`<div id="cover" style="position:fixed; top:0; left:0; background
 }
 const datex = new Date().getFullYear();
 const elemx = document.querySelector("body footer");
-const fixex = unescape("%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%A3%20%E0%B8%9E%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%A7%E0%B8%87");
+const fixex = "Dr.WichianPh."
 const entries = elemx.innerHTML.match(fixex)
 let dd = '';
 if(datex != '2023') {
