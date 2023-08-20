@@ -4,12 +4,12 @@ document.write(`<div id="cover" style="position:fixed; top:0; left:0; background
 <div style="position: absolute;  left: 50%;  top: 50%; z-index:15; color:red; transform: translate(-50%, -50%);"><center><h2>Sorry!, you are violating the terms.</h2></center></div>
 </div>`);  
 }
-const datenow = new Date().getFullYear();
+const datex = new Date().getFullYear();
 const elemx = document.querySelector("body footer");
 const entries = elemx.innerHTML.match("Dr.Wichian Ph.");
 let dd = '';
-if(datenow != '2023') {
-dd = ' - '+datenow;
+if(datex != '2023') {
+dd = ' - '+datex;
 }
 if (!entries) {
 elemx.remove();
