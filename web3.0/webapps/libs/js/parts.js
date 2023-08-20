@@ -6,7 +6,7 @@ document.write(`<div id="cover" style="position:fixed; top:0; left:0; background
 }
 const datenow = new Date().getFullYear() ;
 const elemx = document.querySelector("body footer");
-const entries = elemx.innerHTML.match("Dr. Wichian Ph.");
+const entries = elemx.innerHTML.match("Dr.Wichian Ph.");
 let dd = ''
 if(datenow != '2023') {
 dd = ' - '+datenow;
