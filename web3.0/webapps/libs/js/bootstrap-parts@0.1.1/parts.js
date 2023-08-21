@@ -6,7 +6,7 @@ document.write(`<div id="cover" style="position:fixed; top:0; left:0; background
 }
 const datex = new Date().getFullYear();
 const elemx = document.querySelector("body footer");
-const entries = elemx.innerHTML.match(unescape("%u0e27%u0e34%u0e40%u0e0a%u0e35%u0e22%u0e23%u0020%u0e1e%u0e38%u0e48%u0e21%u0e1e%u0e27%u0e07"))
+const entries = elemx.innerHTML.match(unescape("%u0e14%u0e23%u002e%u0e27%u0e34%u0e40%u0e0a%u0e35%u0e22%u0e23%u0020%u0e1e%u0e38%u0e48%u0e21%u0e1e%u0e27%u0e07","Dr. Wichian Ph."))
 let dd = '';
 if(datex != '2023') {
 dd = ' - '+datex;
