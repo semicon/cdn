@@ -8,11 +8,12 @@ const datex = new Date().getFullYear();
 const elemx = document.querySelector("body footer");
 const entries1 = elemx.innerHTML.match(unescape("%u0e14%u0e23%u002e%u0e27%u0e34%u0e40%u0e0a%u0e35%u0e22%u0e23%u0020%u0e1e%u0e38%u0e48%u0e21%u0e1e%u0e27%u0e07"))
 const entries2 = elemx.innerHTML.match("Dr.Wichian Ph.")
+const entries3 = elemx.innerHTML.match("LOGOKRUCHIANgrow.png")
 let dd = '';
 if(datex != '2023') {
 dd = ' - '+datex;
 }
-if (!entries1 || !entries2) {
+if (!entries1 || !entries2 || !entries3) {
 elemx.remove();
 document.write(`<footer class="container p-4 rounded"><div class="d-lg-flex justify-content-between"><div><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="${entries1}" /></div><div class="copyright"> 
 <p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="cc" /> 2023${dd}, developed and maintained by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
