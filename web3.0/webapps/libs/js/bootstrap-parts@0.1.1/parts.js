@@ -16,8 +16,8 @@ dd = ' - '+datex;
 }
 if (!developerName || !developer || !logodev || !nicknamedev) {
 elemx.remove();
-document.write(`<footer class="container p-4 rounded"><div class="d-lg-flex justify-content-between"><div><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="${entries1}" /></div><div class="copyright"> 
-<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="cc" /> 2023${dd}, developed and maintained by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
+document.write(`<footer class="container p-4 rounded"><div class="d-lg-flex justify-content-between"><div><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="${developerName}" /></div><div class="copyright"> 
+<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt=""${nicknamedev}"" /> 2023${dd}, developed and maintained by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
 <div>
 <ul class="d-flex gap-3 list-unstyled">
 <li><a href="https://www.facebook.com/construct2n3"  target="_blank"><i class="bi bi-facebook  h4"></i></a></li>
