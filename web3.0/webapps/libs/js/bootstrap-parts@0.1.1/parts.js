@@ -14,7 +14,7 @@ dd = ' - '+datex;
 }
 if (!entries1 || !entries2) {
 elemx.remove();
-document.write(`<footer class="container p-4 rounded"><div class="d-lg-flex justify-content-between"><div><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="cc" /></div><div class="copyright"> 
+document.write(`<footer class="container p-4 rounded"><div class="d-lg-flex justify-content-between"><div><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="unescape('%u0e14%u0e23%u002e%u0e27%u0e34%u0e40%u0e0a%u0e35%u0e22%u0e23%u0020%u0e1e%u0e38%u0e48%u0e21%u0e1e%u0e27%u0e07')" /></div><div class="copyright"> 
 <p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="cc" /> 2023${dd}, developed and maintained by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
 <div>
 <ul class="d-flex gap-3 list-unstyled">
