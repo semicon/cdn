@@ -16,7 +16,7 @@ dd = ' - '+datex;
 }
 if (!developerName || !developer || !logodev || !nicknamedev) {
 elemx.remove();
-document.write(`<footer class="container p-4 rounded"><div class="row d-lg-flex justify-content-between"><div class = "col-md-3 text-center"><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="${developerName}" /></div><div class="col-md-6 copyright text-center"> 
+document.write(`<footer class="container"><div class="row d-lg-flex justify-content-between"><div class = "col-md-3 text-center"><img src="https://semicon.github.io/img/LOGOKRUCHIANgrow.png" height="35" alt="${developerName}" /></div><div class="col-md-6 copyright text-center"> 
 <p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${nicknamedev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
 <div class = "col-md-3">
 <ul class="d-flex gap-3 list-unstyled justify-content-center">
