@@ -163,3 +163,35 @@
     font-style: normal;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'ckrabbitboldregular';
+    src: url('ckrabbitbold-webfont.eot');
+    src: url('ckrabbitbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ckrabbitbold-webfont.woff2') format('woff2'),
+         url('ckrabbitbold-webfont.woff') format('woff'),
+         url('ckrabbitbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: '2548_d6regular';
+    src: url('tha0019-webfont.eot');
+    src: url('tha0019-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tha0019-webfont.woff2') format('woff2'),
+         url('tha0019-webfont.woff') format('woff'),
+         url('tha0019-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
