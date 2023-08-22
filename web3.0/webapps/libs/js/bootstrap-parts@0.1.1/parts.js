@@ -18,7 +18,7 @@ function showTime() {
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
 
-  var time = h + ":" + m + ":" + s + " " + session;
+  var time = thaiNumber(h) + ":" + thaiNumber(m)+ ":" + thaiNumber(s) + " " + session;
   document.getElementById("MyClockDisplay").innerText = time;
   document.getElementById("MyClockDisplay").textContent = time;
 
@@ -60,3 +60,13 @@ document.write(`<footer class="container"><div class="row d-lg-flex justify-cont
 </div>
 </footer>`);
 } 
+
+//เปลี่ยนเลขอารบิคเป็นเลขไทย
+      function thaiNumber(numb){
+         var array = {"1":"๑", "2":"๒", "3":"๓", "4" : "๔", "5" : "๕", "6" : "๖", "7" : "๗", "8" : "๘", "9" : "๙", "0" : "๐"};
+         var str = numb.toString();
+         for (var val in array) {
+            str = str.split(val).join(array[val]);
+          }
+         return str;
+      }
