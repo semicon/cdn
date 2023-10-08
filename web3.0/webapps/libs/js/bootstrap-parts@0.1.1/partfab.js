@@ -19,7 +19,7 @@ $("#fab-active").html(`<div class="fab-container">
         <li style="margin-bottom: 60px;">
           <span class="fab-label">สนับสนุนโปรเจกต์</span>
           <div class="fab-icon-holder">
-            <a target="_blank" href="https://guruchian.blogspot.com/p/donate.html"><img src="https://sv1.picz.in.th/images/2023/07/24/MolhWv.png" class="rounded-circle me-2" style="width: 75px;"></a>
+            <a target="_blank" href="https://guruchian.blogspot.com/p/donate.html"><img src="https://sv1.picz.in.th/images/2023/07/24/MolhWv.png" class="rounded-circle></a>
           </div>
         </li>
       </ul>
