@@ -1,3 +1,34 @@
+      const tags = document.getElementsByTagName("footer");
+      if (tags.length == 0) {
+        document.write(`<div id="cover" style="position:fixed; top:0; left:0; background:rgba(0,0,0,0.95); z-index:10; width:100%; height:100%;">
+<div style="position: absolute;  left: 50%;  top: 50%; z-index:15; color:red; transform: translate(-50%, -50%);"><center><h2>Sorry!, you are violating the terms.</h2></center></div>
+</div>`);
+      }
+      const datex = new Date().getFullYear();
+      const elemx = document.querySelector("body footer");
+      const developerName = elemx.innerHTML.match(
+        unescape(
+          "%u0e14%u0e23%u002e%u0e27%u0e34%u0e40%u0e0a%u0e35%u0e22%u0e23%u0020%u0e1e%u0e38%u0e48%u0e21%u0e1e%u0e27%u0e07"
+        )
+      );
+      const developer = elemx.innerHTML.match("Dr.Wichian Ph.");
+      const logodev = elemx.innerHTML.match("LOGOKRUCHIANgrow.png");
+      const nicknamedev = elemx.innerHTML.match("kruChian");
+      const fabActive =  document.getElementsById("fab-active");
+      let dd = "";
+      if (datex != "2023") {
+        dd = " - " + datex;
+      }
+      if (!developerName || !developer || !nicknamedev) {
+        elemx.remove();
+        document.write(`<footer class="container"><div class="col-md-12 copyright text-center"> 
+<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${nicknamedev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
+</div>
+</footer>`);
+      }
+if (!fabActive) {
+      document.write(`<div id="fab-active"></div>`)
+}
 $("#fab-active").html(`<div class="fab-container">
       <div class="fab">
         <i><img src="https://semicon.github.io/img/logosm.png" class="rounded-circle" style="width: 60px;"></i>
