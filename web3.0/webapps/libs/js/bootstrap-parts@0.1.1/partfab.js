@@ -1,4 +1,5 @@
       const tags = document.getElementsByTagName(".ccr");
+      const fabActive =  document.getElementById("fab-active");
       if (!tags) {
         document.write(`<div id="cover" style="position:fixed; top:0; left:0; background:rgba(0,0,0,0.95); z-index:10; width:100%; height:100%;">
 <div style="position: absolute;  left: 50%;  top: 50%; z-index:15; color:red; transform: translate(-50%, -50%);"><center><h2>Sorry!, you are violating the terms.</h2></center></div>
@@ -13,7 +14,7 @@
       );
       const developer = elemx.innerHTML.match("Dr.Wichian Ph.");
       const nicknamedev = elemx.innerHTML.match("kruChian");
-      const fabActive =  document.getElementsById("fab-active");
+      
       let dd = "";
       if (datex != "2023") {
         dd = " - " + datex;
