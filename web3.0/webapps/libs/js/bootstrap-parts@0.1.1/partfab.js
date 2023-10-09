@@ -7,7 +7,7 @@ $("#fab-active").html(`<div class="fab-container">
         <li>
           <span class="fab-label">ติดตามเพจ Facebook</span>
           <div class="fab-icon-holder">
-            <a target="_blank" href="https://www.facebook.com/construct2n3"><i class="fa-brands fa-facebook"></i></i></a>
+            <a target="_blank" href="https://web.facebook.com/construct2n3"><i class="fa-brands fa-facebook"></i></i></a>
           </div>
         </li>
         <li>
