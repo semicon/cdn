@@ -22,7 +22,7 @@
       if (!developerName || !developer || !nicknamedev) {
         elemx.remove();
         document.write(`<footer class="container"><div class="col-md-12 copyright text-center"> 
-<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${nicknamedev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank"> Dr. Wichian Ph.</a></p></div>
+<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${nicknamedev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank" alt="LOGOKRUCHIANgrow.png"> Dr. Wichian Ph.</a></p></div>
 </div>
 </footer>`);
       }
