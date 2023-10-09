@@ -12,7 +12,6 @@
         )
       );
       const developer = elemx.innerHTML.match("Dr.Wichian Ph.");
-      const logodev = elemx.innerHTML.match("LOGOKRUCHIANgrow.png");
       const nicknamedev = elemx.innerHTML.match("kruChian");
       const fabActive =  document.getElementsById("fab-active");
       let dd = "";
@@ -22,7 +21,7 @@
       if (!developerName || !developer || !nicknamedev) {
         elemx.remove();
         document.write(`<footer class="container"><div class="col-md-12 copyright text-center"> 
-<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${logodev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank" alt="${nicknamedev}> Dr. Wichian Ph.</a></p></div>
+<p>Copyright   <img src="https://mirrors.creativecommons.org/presskit/icons/heart.red.png" width="25" height="25" alt="${nicknamedev}" /> 2023${dd}, developed by <a  href="https://guruchian.blogspot.com/" target="_blank" alt="ดร.วิเชียร พุ่มพวง"> ${developer}</a></p></div>
 </div>
 </footer>`);
       }
