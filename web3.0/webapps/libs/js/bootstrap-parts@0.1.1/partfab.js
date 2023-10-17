@@ -31,7 +31,7 @@ if (!fabActive) {
 }
 $("#fab-active").html(`<div class="fab-container">
       <div class="fab">
-        <i><img src="https://semicon.github.io/img/logosm.png" class="rounded-circle" style="width: 60px;"></i>
+        <img src="https://semicon.github.io/img/logosm.png" class="rounded-circle" style="width: 60px;">
       </div>
   
       <ul class="fab-options">
