@@ -1,4 +1,5 @@
-      const tags = document.getElementsByTagName("footer")
+      //const tags = document.getElementsByTagName("footer")
+      const tags = document.querySelector("footer");
       const fabActive = document.querySelector("#fab-active")
       fabActive.classList.remove("d-none");
       tags.classList.remove("d-none");
