@@ -2,7 +2,7 @@
       const fabActive = document.querySelector("#fab-active")
       fabActive.classList.remove("d-none");
       tags.classList.remove("d-none");
-      if (window.getComputedStyle(fabActive).display === "none" || window.getComputedStyle(fabActive).visibility === "hidden" || window.getComputedStyle(fabActive).display === "none" || window.getComputedStyle(fabActive).visibility === "hidden") {
+      if (window.getComputedStyle(tags).display === "none" || window.getComputedStyle(tags).visibility === "hidden" || window.getComputedStyle(fabActive).display === "none" || window.getComputedStyle(fabActive).visibility === "hidden") {
           document.write(`<div id="cover" style="position:fixed; top:0; left:0; background:rgba(0,0,0,0.95); z-index:10; width:100%; height:100%;">
 <div style="position: absolute;  left: 50%;  top: 50%; z-index:15; color:red; transform: translate(-50%, -50%);"><center><h2>Sorry!, you are violating the terms.</h2></center></div>
 </div>`
