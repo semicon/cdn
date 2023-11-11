@@ -44,13 +44,13 @@ $("#fab-active").html(`<div class="fab-container">
         <li>
           <span class="fab-label">ติดตามเรา</span>
           <div class="fab-icon-holder">
-            <a target="_blank" href="https://web.facebook.com/construct2n3"><i class="fa-brands fa-facebook fs-1 text-primary"></i></i></a>
+            <a target="_blank" href="https://web.facebook.com/construct2n3"><i class="fa-brands fa-facebook text-primary"></i></i></a>
           </div>
         </li>
         <li>
           <span class="fab-label">ติดต่อเรา</span>
           <div class="fab-icon-holder">
-            <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=ph.wichian@gmail.com&tf=cm"><i class="fas fa-envelope fs-1 text-danger"></i></a>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=ph.wichian@gmail.com&tf=cm"><i class="fas fa-envelope text-danger"></i></a>
           </div>
         </li>
         <li style="margin-bottom: 50px;">
