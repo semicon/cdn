@@ -56,7 +56,7 @@ $("#fab-active").html(`<div class="fab-container">
         <li style="margin-bottom: 50px;">
           <span class="fab-label">สนับสนุนเรา</span>
           <div class="fab-icon-holder">
-            <a target="_blank" href="https://guruchian.blogspot.com/p/donate.html"><img src="https://semicon.github.io/img/web/cafe.png" class="rounded-circle" style="width: 100%;"></a>
+            <a target="_blank" href="https://guruchian.blogspot.com/p/donate.html"><img src="https://semicon.github.io/img/web/cafe.png" class="rounded-circle" style="width: 95%;"></a>
           </div>
         </li>
       </ul>
