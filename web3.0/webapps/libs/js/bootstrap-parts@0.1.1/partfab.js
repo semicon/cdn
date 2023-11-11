@@ -1,9 +1,11 @@
       //const tags = document.getElementsByTagName("footer")
       const tags = document.querySelector("footer");
       const fabActive = document.querySelector("#fab-active")
+      const cpr = document.querySelector(".copyright");
       fabActive.classList.remove("d-none");
       tags.classList.remove("d-none");
-      if (!tags || !fabActive || window.getComputedStyle(tags).display === "none" || window.getComputedStyle(tags).visibility === "hidden" || window.getComputedStyle(fabActive).display === "none" || window.getComputedStyle(fabActive).visibility === "hidden") 
+      cpr.classList.remove("d-none");
+      if (!cpr || !tags || !fabActive || window.getComputedStyle(cpr).display === "none" || window.getComputedStyle(cpr).visibility === "hidden" || window.getComputedStyle(tags).display === "none" || window.getComputedStyle(tags).visibility === "hidden" || window.getComputedStyle(fabActive).display === "none" || window.getComputedStyle(fabActive).visibility === "hidden") 
       {
         document.write(`<div id="cover" style="position:fixed; top:0; left:0; background:rgba(0,0,0,0.95); z-index:99999; width:100%; height:100%;">
 <div style="position: absolute;  left: 50%;  top: 50%; z-index:15; color:red; transform: translate(-50%, -50%);"><center><h2>Sorry!, you are violating the terms.</h2></center></div>
