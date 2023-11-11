@@ -37,7 +37,7 @@ if (!fabActive) {
 }
 $("#fab-active").html(`<div class="fab-container">
       <div class="fab">
-        <img src="https://semicon.github.io/img/logosm.png" style="width: 60px;">
+        <img src="https://semicon.github.io/img/logosm.png" style="width: 50px;">
       </div>
   
       <ul class="fab-options">
@@ -53,7 +53,7 @@ $("#fab-active").html(`<div class="fab-container">
             <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=ph.wichian@gmail.com&tf=cm"><i class="fas fa-envelope fs-2 text-danger"></i></a>
           </div>
         </li>
-        <li style="margin-bottom: 60px;">
+        <li style="margin-bottom: 50px;">
           <span class="fab-label">สนับสนุนเรา</span>
           <div class="fab-icon-holder">
             <a target="_blank" href="https://guruchian.blogspot.com/p/donate.html"><img src="https://semicon.github.io/img/web/cafe.png" class="rounded-circle" style="width: 100%;"></a>
